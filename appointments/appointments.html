@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Star Stylists</title>
+	<link rel="stylesheet" type="text/css" href="../index.css">
+
+</head>
+<body>
+	<aside>
+			<ul>
+				<li><img src="../images/facebooksmall.png" alt="Facebook Logo" class="social">facebook.com/starstylists</li>
+				<li><img src="../images/instagramsmall.png" alt="Instagram Logo" class="social">instagram.com/starstylists</li>
+				<li><img src="../images/twittersmall.png" alt="Twitter Logo" class="social">twitter.com/starstylists</li>
+			</ul>
+		</aside>	
+	<header>
+		<img src="../images/starstylistslogo.png" alt="logo" id="logo">
+		<nav>
+			<ul>
+				<li><a href="../index.html" title="Home">Home</a></li>
+				<li><a href="../about/about.html" title="About">About</a></li>
+				<li><a href="../stylists/stylists.html" title="Stylists">Stylists</a></li>
+				<li><a href="../gallery/gallery.html" title="Gallery">Gallery</a></li>
+				<li class="selected"><a href="appointments/appointments.html" title="Appointments">Appointments</a></li>
+			</ul>
+		</nav>		
+	</header>
+	<h1 id="appointmentheading">Book an Appointment</h1>
+	<form>
+		<div class="tablerow">
+		<p>
+			First Name: 
+		</p>
+		<p>
+			<input type="text" name="firstname">
+		</p>
+		</div>
+		<div class="tablerow">
+		<p>
+			Last Name: </p>
+		<p>	
+			<input type="text" name="lastname">
+		</p>
+		</div>
+		<div class="tablerow">
+		<p>
+			Telephone: </p>
+		<p>
+			<input type="Telephone" name="telephone">
+		</p>
+		</div>
+		<div class="tablerow">
+		<p>	
+			Email: </p>
+		<p>
+			<input type="Email" name="email">
+		</p>
+		</div>
+		<div class="tablerow">
+		<p>	
+			Please choose your stylist: 
+		</p>
+		<p>	
+			<select name="stylist">
+				<option value="chloe">Chloe</option>
+				<option value="sammy">Sammy</option>
+				<option value="jadon">Jadon</option>
+				<option value="nicki">Nicki</option>
+				<option value="caleb">Caleb</option>
+			</select>
+		</p>
+		</div>
+		<div class="tablerow">
+		<p>
+			Please pick a date: 
+		</p>
+		<p>	
+			<input type="date" name="date"> 
+		</p>
+		</div>
+		<div class="tablerow">
+		<p>
+			Please pick a time: 
+		</p>
+		<p>
+			<select name="time">
+				<option value="9:00">9:00</option>
+				<option value="11:00">11:00</option>
+				<option value="13:00">13:00</option>
+				<option value="15:00">15:00</option>
+			</select>
+		</p>
+		</div>
+		<div class="tablerow">
+		<p></p>	
+		<p>
+			<label for="comments">Additional comments:</label><br>
+			<textarea name="comments" id="comments"></textarea>
+		</p>
+		</div>
+		<div class="tablerow">
+		<p></p>
+		<p>
+			Star Stylists is committed to protecting and respecting your privacy and we'll only use your
+			personal information to administer your account. From time to time, we would like to contact you
+			about our services as well other content that may be of interest to you. If you consent to us
+			contacting you via email for this purpose, please tick below:
+		</p>
+		</div>
+		<div class="tablerow">
+		<p></p>
+		<p>	
+			<input type="checkbox" name="consent" id="consent"> I agree to receive marketing emails from Star Stylists
+		</p>
+		</div>
+		<div class="tablerow">
+		<p></p>
+		<p>
+			<input type="submit" name="submit" value="Book Appointment">
+		</p>
+		</div>
+	</form>
+	<footer>
+		<p id="disclaimer">
+			Star Stylists provides this website as a service to the public. Star Stylists is not responsible for,
+			and expressly disclaims all liability for, damages of any kind arising out of use, or reference to, or
+			reliance on any information contained within this website.
+		</p>
+	</footer>
+	<script type="text/javascript" src="appointments.js"></script>
+</body>
+</html>

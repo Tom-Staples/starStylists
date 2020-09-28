@@ -1,0 +1,178 @@
+body	{
+	font-size: small;
+	line-height: 1.5em;
+	font-family: "Monotype Corsiva", Georgia, Arial, sans-serif;
+	margin:0px;
+		}
+header	{
+	height:163px;
+	background-color: black;
+	padding: 10px 10px 10px 10px;
+		}
+#logo {
+	float: left;
+	margin-right: 10px;
+}
+nav {
+	font-size: 1.5em;
+	background-color: black;
+	margin: 75px 360px 0px 310px;
+}
+nav ul li {
+	display: inline;
+	padding: 15px 10px 15px 10px;
+}
+nav a {
+	text-decoration: none;
+	color: #aaabab;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.selected {
+	background-color: white;
+}
+.selected a {
+	color:black;
+}
+aside {
+	margin: 5px 0px 0px 0px;
+	width: 350px;
+	position: absolute;
+	right: 10px;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	color:#aaabab;
+}
+.social {
+	padding: 5px 10px 5px 10px;
+	vertical-align: middle;
+}
+aside li, #about li {
+	list-style-type: none;
+}
+
+#booking {
+	background-color: black;
+	border: solid #aaabab 3px;
+	padding: 20px 20px 20px 20px;
+	font-size: 3.5em;
+	font-weight: bolder;
+	color: #aaabab;
+	text-decoration: none;
+	position: absolute;
+	text-align: center;
+	width: 400px;
+	top: 65%;
+	left:50%;
+	margin-left: -210px;
+}
+#booking:hover {
+	background-color: white;
+	color: black;
+}
+#salonhome {
+	width:100%;
+	height: 843px;
+	margin: 0px;
+}
+footer {
+	margin-top:-6px;
+	height:50px;
+	background-color: black;
+	padding: 5px 10px 10px 10px;
+}
+#disclaimer {
+	color: #aaabab;
+	font-size: 1em;
+	width:500px;
+	margin: 0px auto 0px auto;
+	text-align:center;
+}
+#maintable {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 10px 10px;
+}
+#tablerow {
+	display: table-row;
+}
+#about, #prices , #location {
+	display: table-cell;
+	padding: 10px 10px 0px 10px;
+	border: solid black 3px;
+	width:33%;
+	font-size: 1.8em;
+	line-height: 1.5;
+	text-align: center;
+}
+#pricetable	{
+	padding: 10px 0px 10px 0px;
+	width:100%;
+	border: solid black 3px;
+	caption-side: bottom;
+}
+.prices, #pricetable caption	{
+	font-size: 0.75em;
+	font-style: italic;
+}
+#stylistheading, #galleryheading, #appointmentheading {
+	text-align: center;
+	font-size: 3.5em;
+}
+#stylistmain {
+	text-align: left;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.names	{
+	font-size: 2.5em;
+}
+.style {
+	height: 300px;
+	border: solid black 3px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+}
+.stylists {
+	float: left;
+}
+.stylistdescription {
+	margin-left: 230px;
+	padding: 10px 10px 10px 10px;
+	font-size: 1.8em;
+	line-height: 1.5;
+}
+.gallery	{
+	padding: 10px;
+}
+#chloe, #sammy, #jadon, #nicki, #caleb {
+	padding-left: 10px;
+	font-size: 3em;
+}
+form {
+	display: table;
+	font-size: 1.5em;
+	padding: 10px;
+	border: solid 3px black;
+	margin: 10px auto 10px auto;
+	width:850px;
+}
+form textarea {
+	width:500px;
+	height: 150px;
+}
+div.tablerow {
+	display: table-row;
+}
+div.tablerow p {
+	display: table-cell;
+	padding: 2px;
+	vertical-align: top;
+}
+div.tablerow p:first-child {
+	text-align: right;
+	width:200px;
+}
+
+
